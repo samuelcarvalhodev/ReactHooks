@@ -11,7 +11,7 @@ function App() {
     const { latitude, longitude } = coords;
     setLocation({latitude, longitude});
   }
-
+ 
   return (
    <>
    Latitude: {location.latitude} <br/>
